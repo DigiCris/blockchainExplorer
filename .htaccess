@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^tx/(.*)$ http://localhost/explorer/?tx=$1 [R=301,L]
+RewriteRule ^address/(.*)$ http://localhost/explorer/?address=$1 [R=301,L]
+RewriteRule ^block/(.*)$ http://localhost/explorer/?block=$1 [R=301,L]
